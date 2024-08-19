@@ -23,6 +23,12 @@ pub type c_char = i8;
 pub type c_long = i64;
 pub type c_ulong = u64;
 
+pub type time_t = i64;
+
+extern "C" {
+    pub fn strlen(cs: *const c_char) -> size_t;
+}
+
 pub const INT_MIN: c_int = -2147483648;
 pub const INT_MAX: c_int = 2147483647;
 

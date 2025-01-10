@@ -1,6 +1,6 @@
 # libc - Raw FFI bindings to platforms' system libraries
 
-[![GHA Status]][GitHub Actions] [![Cirrus CI Status]][Cirrus CI] [![Latest Version]][crates.io] [![Documentation]][docs.rs] ![License]
+[![GHA Status]][GitHub Actions] [![Cirrus CI Status]][Cirrus CI] [![Latest Version]][crates.io] [![Documentation]][docs.rs] [![License]][License-MIT] [![License]][License-Apache]
 
 `libc` provides all of the definitions necessary to easily interoperate with C
 code (or "C-like" code) on each of the platforms that Rust supports. This
@@ -105,3 +105,5 @@ dual licensed as above, without any additional terms or conditions.
 [Documentation]: https://docs.rs/libc/badge.svg
 [docs.rs]: https://docs.rs/libc
 [License]: https://img.shields.io/crates/l/libc.svg
+[License-MIT]: https://github.com/fleek-network/libc/blob/main/LICENSE-MIT
+[License-Apache]: https://github.com/fleek-network/libc/blob/main/LICENSE-APACHE
